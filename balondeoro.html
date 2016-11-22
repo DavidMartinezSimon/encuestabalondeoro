@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            margin: auto;
+            text-align: center;
+            background-image: url("oro.jpg");
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: 60%;
+            background-color: #e0e0e0;
+        }
+        form{
+            margin: auto;
+            width: 700px;
+            height: 300px;
+            background-color: grey;
+            border-radius: 20px;
+        }
+
+    </style>
+</head>
+<body>
+<form action="balondeoro.php" method="get">
+    <h2>Resultados de encuesta de futbol, balon de oro</h2>
+    <label for="messi">Messi</label>
+    <input type="number" id="messi" name="messi" ><br>
+    <label for="ronaldo"> Cristiano Ronaldo</label>
+    <input type="number" id="ronaldo" name="ronaldo"><br>
+    <label for="griezman"> Griezmann</label>
+    <input type="number" id="griezman" name="griezman"><br>
+    <button>Enviar</button>
+</form>
+</body>
+</html>
